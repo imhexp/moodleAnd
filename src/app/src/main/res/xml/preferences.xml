@@ -1,0 +1,25 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="General Settings">
+        <SwitchPreferenceCompat
+            android:key="dark_mode"
+            android:title="Dark Mode"
+            android:summary="Enable or disable dark mode" />
+
+        <ListPreference
+            android:key="language"
+            android:title="Language"
+            android:summary="Select app language"
+            android:entries="@array/language_options"
+            android:entryValues="@array/language_values"
+            android:defaultValue="en" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Account">
+        <EditTextPreference
+            android:key="username"
+            android:title="Username"
+            android:summary="Set your username" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

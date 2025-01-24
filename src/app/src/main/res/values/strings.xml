@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name" translatable="false">moodleAnd</string>
+    <string name="hola_provinciaActivity">Hola,</string>
+    <string name="eligeprovincia_provinciaActivity">elija su provincia.</string>
+    <string name="almeria_provinciaActivity" translatable="false">Almería</string>
+    <string name="cadiz_provinciaActivity" translatable="false">Cádiz</string>
+    <string name="cordoba_provinciaActivity" translatable="false">Córdoba</string>
+    <string name="granada_provinciaActivity" translatable="false">Granada</string>
+    <string name="huelva_provinciaActivity" translatable="false">Huelva</string>
+    <string name="jaen_provinciaActivity" translatable="false">Jaén</string>
+    <string name="malaga_provinciaActivity" translatable="false">Málaga</string>
+    <string name="sevilla_provinciaActivity" translatable="false">Sevilla</string>
+    <string name="fp_provinciaActivity" translatable="false">Formación Profesional (FP)</string>
+    <string name="profesorado_provinciaActivity" translatable="false">Formación Profesorado</string>
+    <string name="btnsiguiente_provinciaActivity">Siguiente</string>
+    <string name="btncreditos_provinciaActivity">Créditos</string>
+    <string name="porfavor_loginActivity">Por favor,</string>
+    <string name="iniciesesion_loginActivity">inicie sesión.</string>
+    <string name="IdEAhint_loginActivity">Usuario IdEA</string>
+    <string name="contraseñahint_loginActivity">Contraseña</string>
+    <string name="btniniciarsesion_loginActivity">Iniciar Sesión</string>
+    <string name="btnatras_loginActivity">Atrás</string>
+    <string name="creditos_creditosActivity">Créditos.</string>
+    <string name="mensaje_creditosActivity">Moodle Centros es un servicio proporcionado por la Consejería de Desarrollo Educativo de la Junta de Andalucía.\n\nNo estoy relacionado con dicha Consejería. La Junta de Andalucía podría no ofrecer soporte para este cliente.\n\nApoyo el software de código abierto (FOSS). El código fuente está disponible en https://github.com/imhexp/moodleand\n\nTenga en cuenta que no gano dinero con esto. No estoy interesado en tus datos personales. No los proceso, recojo o vendo.</string>
+    <string name="btnvolver_creditosActivity">Volver</string>
+    <string name="codigo_creditosActivity">Código fuente</string>
+
+
+
+
+
+
+
+
+    <string-array name="language_options">
+        <item>English</item>
+        <item>Español</item>
+    </string-array>
+
+    <string-array name="language_values">
+        <item>en</item>
+        <item>es</item>
+    </string-array>
+
+</resources>

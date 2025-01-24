@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hola_provinciaActivity">Hi,</string>
+    <string name="eligeprovincia_provinciaActivity">choose your province.</string>
+    <string name="btnsiguiente_provinciaActivity">Next</string>
+    <string name="btncreditos_provinciaActivity">Credits</string>
+    <string name="porfavor_loginActivity">Please,</string>
+    <string name="iniciesesion_loginActivity">log in.</string>
+    <string name="IdEAhint_loginActivity">IdEA username</string>
+    <string name="contraseñahint_loginActivity">Password</string>
+    <string name="btniniciarsesion_loginActivity">Log in</string>
+    <string name="btnatras_loginActivity">Back</string>
+    <string name="creditos_creditosActivity">Credits.</string>
+    <string name="mensaje_creditosActivity">"Moodle Centros is a service provided by the education department (Consejería de Desarrollo Educativo) of Junta de Andalucía.\n\nI am not affiliated with Junta de Andalucía. Junta de Andalucía is not responsible for any issues that may occur while using this client.\n\nAs a developer, I support open source software. The source code is available at https://github.com/imhexp/moodleand\n\nI do not make any revenue from this. It is just a labour of love for education, I'm not interested on any of your personal data nor do I sell it."</string>
+    <string name="btnvolver_creditosActivity">Return</string>
+    <string name="codigo_creditosActivity">Source code</string>
+</resources>
