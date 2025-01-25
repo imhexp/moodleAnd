@@ -64,7 +64,7 @@ public class CreditosActivity extends AppCompatActivity {
         btnSrc.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                String repo = "https://github.com/imhexp/moodleand";
+                String repo = "https://github.com/imhexp/moodleAnd";
                 Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(repo));
                 startActivity(intent);
             }

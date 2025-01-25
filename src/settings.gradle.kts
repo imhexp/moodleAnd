@@ -19,6 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Moodle Andalucía"
+rootProject.name = "moodleAnd"
 include(":app")
  
