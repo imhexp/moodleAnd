@@ -13,6 +13,9 @@ jobs:
       - name: Checkout del código
         uses: actions/checkout@v3
 
+      - name: Dar permisos de ejecución a gradlew
+        run: chmod +x ./src/gradlew
+
       - name: Configurar JDK 17
         uses: actions/setup-java@v3
         with:
@@ -24,7 +27,6 @@ jobs:
         with:
           api-level: 34
           build-tools: 34.0.0
-          ndk: latest
 
       - name: Instalar dependencias
         run: ./src/gradlew dependencies
