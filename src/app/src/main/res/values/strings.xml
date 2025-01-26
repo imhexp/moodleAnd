@@ -24,22 +24,4 @@
     <string name="mensaje_creditosActivity">Moodle Centros es un servicio proporcionado por la Consejería de Desarrollo Educativo de la Junta de Andalucía.\n\nNo estoy relacionado con dicha Consejería. La Junta de Andalucía podría no ofrecer soporte para este cliente.\n\nApoyo el software de código abierto (FOSS). El código fuente está disponible en https://github.com/imhexp/moodleand\n\nTenga en cuenta que no gano dinero con esto. No estoy interesado en tus datos personales. No los proceso, recojo o vendo.</string>
     <string name="btnvolver_creditosActivity">Volver</string>
     <string name="codigo_creditosActivity">Código fuente</string>
-
-
-
-
-
-
-
-
-    <string-array name="language_options">
-        <item>English</item>
-        <item>Español</item>
-    </string-array>
-
-    <string-array name="language_values">
-        <item>en</item>
-        <item>es</item>
-    </string-array>
-
 </resources>
