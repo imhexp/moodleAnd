@@ -11,7 +11,7 @@
     <string name="malaga_provinciaActivity" translatable="false">Málaga</string>
     <string name="sevilla_provinciaActivity" translatable="false">Sevilla</string>
     <string name="fp_provinciaActivity" translatable="false">Formación Profesional (FP)</string>
-    <string name="profesorado_provinciaActivity" translatable="false">Formación Profesorado</string>
+    <string name="profesorado_provinciaActivity" translatable="false">Profesorado</string>
     <string name="btnsiguiente_provinciaActivity">Siguiente</string>
     <string name="btncreditos_provinciaActivity">Créditos</string>
     <string name="porfavor_loginActivity">Por favor,</string>
