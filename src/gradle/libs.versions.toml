@@ -24,6 +24,7 @@ constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayo
 navigation-fragment = { group = "androidx.navigation", name = "navigation-fragment", version.ref = "navigationFragment" }
 navigation-ui = { group = "androidx.navigation", name = "navigation-ui", version.ref = "navigationUi" }
 datastore = { group = "androidx.datastore", name = "datastore-preferences", version.ref = "datastore" } # Añadido
+preference-ktx = { module = "androidx.preference:preference-ktx", version.ref = "preference" }
 security-crypto = { module = "androidx.security:security-crypto", version.ref = "securityCrypto" }
 preference = { group = "androidx.preference", name = "preference", version.ref = "preference" }
 

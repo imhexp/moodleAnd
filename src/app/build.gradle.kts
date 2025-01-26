@@ -47,5 +47,5 @@ dependencies {
     androidTestImplementation(libs.espresso.core)
     implementation(libs.core.splashscreen)
     implementation(libs.security.crypto)
-    implementation("androidx.preference:preference-ktx:1.2.1")
+    implementation(libs.preference.ktx)
 }
