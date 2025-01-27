@@ -40,5 +40,5 @@ jobs:
     - name: Subir APK como artifacto
       uses: actions/upload-artifact@v3
       with:
-        name: debug-apk
+        name: app-debug.apk
         path: src/app/build/outputs/apk/debug/app-debug.apk
