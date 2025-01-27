@@ -1,0 +1,44 @@
+name: Debug build (moodleAnd)
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build:
+
+    runs-on: self-hosted
+
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Configurar Java 17
+      uses: actions/setup-java@v4
+      with:
+        java-version: '17'
+        distribution: 'temurin'
+        cache: gradle
+        
+    - name: Cambiar directorio de trabajo a src (subcarpeta con el código)
+      working-directory: src
+      run: pwd
+
+    - name: Dar permisos de ejecución a gradlew
+      working-directory: src
+      run: chmod +x gradlew
+      
+    - name: Instalar dependencias del proyecto
+      working-directory: src
+      run: ./gradlew dependencies
+
+    - name: Compilar APK debug
+      working-directory: src
+      run: ./gradlew assembleDebug
+
+    - name: Subir APK como artifacto
+      uses: actions/upload-artifact@v3
+      with:
+        name: debug-apk
+        path: src/app/build/outputs/apk/debug/app-debug.apk
