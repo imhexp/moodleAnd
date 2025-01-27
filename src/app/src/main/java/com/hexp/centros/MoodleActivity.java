@@ -250,7 +250,7 @@ public class MoodleActivity extends AppCompatActivity {
             case "Málaga": return "https://edea.juntadeandalucia.es/cas/login?service=https%3A%2F%2Feducacionadistancia.juntadeandalucia.es%2Fcentros%2Fmalaga%2Flogin%2Findex.php%3FauthCAS%3DCAS";
             case "Sevilla": return "https://edea.juntadeandalucia.es/cas/login?service=https%3A%2F%2Feducacionadistancia.juntadeandalucia.es%2Fcentros%2Fsevilla%2Flogin%2Findex.php%3FauthCAS%3DCAS";
             case "Formación Profesional (FP)": return "https://edea.juntadeandalucia.es/cas/login?service=https%3A%2F%2Feducacionadistancia.juntadeandalucia.es%2Fformacionprofesional%2Flogin%2Findex.php%3FauthCAS%3DCAS";
-            case "Formación Profesorado": return "https://edea.juntadeandalucia.es/cas/login?service=https%3A%2F%2Feducacionadistancia.juntadeandalucia.es%2Fprofesorado%2Flogin%2Findex.php%3FauthCAS%3DCAS";
+            case "Profesorado": return "https://edea.juntadeandalucia.es/cas/login?service=https%3A%2F%2Feducacionadistancia.juntadeandalucia.es%2Fprofesorado%2Flogin%2Findex.php%3FauthCAS%3DCAS";
             default: return "https://google.com";
         }
     }
